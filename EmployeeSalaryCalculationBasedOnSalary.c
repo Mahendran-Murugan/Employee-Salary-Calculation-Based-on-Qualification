@@ -24,7 +24,7 @@ int main()
         scanf("%d", &e[i].qualificationch);
         if (e[i].genderch == 1 && e[i].year >= 10 && e[i].qualificationch == 1)
         {
-            e[i].salary = 15000;
+            e[i].salary = 145000;
         }
         else if (e[i].genderch == 1 && e[i].year >= 10 && e[i].qualificationch == 2 || e[i].genderch == 1 && e[i].year < 10 && e[i].qualificationch == 1 || e[i].genderch == 2 && e[i].year < 10 && e[i].qualificationch == 1)
         {
